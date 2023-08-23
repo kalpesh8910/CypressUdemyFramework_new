@@ -20,6 +20,7 @@ describe('My Test Suite', function()
     // check the value of option2 and option3 check boxes
     cy.get('input[type="checkbox"]').check(['option2','option3'])
 
+    
   })  
 
 
